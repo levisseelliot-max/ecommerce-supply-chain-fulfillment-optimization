@@ -14,7 +14,7 @@ WITH deduplicated_reviews AS (
     SELECT 
         order_id,
         MIN(review_score) AS min_review_score
-    FROM `eloquent-petal-505917-u0`.Olist.order_reviews_dataset
+    FROM `supply_chain_raw.order_reviews`
     GROUP BY order_id
 )
 
@@ -86,12 +86,12 @@ SELECT
     -- Perceived Customer Quality
     r.min_review_score
 
-FROM `eloquent-petal-505917-u0`.Olist.order_items AS oi
-LEFT JOIN `eloquent-petal-505917-u0`.Olist.orders AS o 
+FROM `supply_chain_raw.order_items` AS oi
+LEFT JOIN `supply_chain_raw.orders` AS o 
     ON oi.order_id = o.order_id
-LEFT JOIN `eloquent-petal-505917-u0`.Olist.seller_dataset AS s 
+LEFT JOIN `supply_chain_raw.sellers` AS s 
     ON oi.seller_id = s.seller_id
-LEFT JOIN `eloquent-petal-505917-u0`.Olist.customer_database AS c 
+LEFT JOIN `supply_chain_raw.customers` AS c 
     ON o.customer_id = c.customer_id
 LEFT JOIN deduplicated_reviews AS r 
     ON oi.order_id = r.order_id
