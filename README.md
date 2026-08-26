@@ -107,4 +107,4 @@ Specialized in analytics pipelines, fulfillment modeling, and operations turnaro
 
 LinkedIn: https://www.linkedin.com/in/elliot-levisse
 
-Portfolio Hub: github.com/elliotlevisse
+Portfolio Hub: github.com/elliotlevisse-max
