@@ -20,15 +20,10 @@ This project delivers an enterprise-grade analytics pipeline—from raw data ext
 
 ## 🛠️ Architecture & Technology Stack
 
-[ Raw Olist Source Data ]
-│
-▼  
-(BigQuery SQL CTEs & Window Functions)
-[ Star Schema & Dimensional Modeling ] ──> FACT_fulfillment_orders
-│
-▼  
-(Fast-Query Tableau Extract Engine)
-[ Executive 3-Tab BI Suite ] ──> C-Level Decision Memorandum (A3 Briefing)
+Raw Olist Source Data → (BigQuery SQL CTEs & Window Functions)→ FACT_fulfillment_orders
+
+
+Fast-Query Tableau Extract Engine → [ Executive 3-Tab Tableau ] → C-Level Decision Memorandum (A3 Briefing)
 
 * **Data Warehouse & ETL:** Google BigQuery (Standard SQL, Window Functions, RegEx, Partitioning)
 * **Dimensional Modeling:** Star Schema (Kimball methodology), Conformed Dimensions, Fact Tables
@@ -39,13 +34,10 @@ This project delivers an enterprise-grade analytics pipeline—from raw data ext
 
 ## 🔍 Root Cause Diagnostic & Core Insights
 
-Total Lead Time Breakdown:
-├── Intra-State Corridors (7.88 Days Average)
-│   ├── Processing Time (Seller Dispatch): 3.16 Days (40.1%)
-│   └── Transit Time (Middle/Last-Mile)   : 4.72 Days (59.9%)  --> Stable Baseline
-└── Inter-State Corridors (15.01 Days Average)
-├── Processing Time (Seller Dispatch): 3.32 Days (22.1%)  --> Stable (+0.16d variance)
-└── Transit Time (Middle/Last-Mile)   : 11.69 Days (77.9%) --> CRITICAL BOTTLENECK (+148%)
+
+<img width="465" height="243" alt="Screenshot 2026-08-26 at 19 31 03" src="https://github.com/user-attachments/assets/df321a24-a886-4c3f-96b4-54c300d67b0f" />
+
+
 
 1. **Carrier vs. Merchant Latency:** Seller dispatch discipline is stable nationwide (~3.2 days). The failure is **100% carrier-driven**, with inter-state transit times surging by **+148% (4.72d to 11.69d)**.
 2. **Inter-State Exposure:** Inter-State orders represent **64.2% of volume (61,894 orders)** and **$9.09M GMV**, but drive **$185,735 (75.4%) of network-wide P&L risk**.
@@ -57,16 +49,22 @@ Total Lead Time Breakdown:
 ## 📊 Tableau BI Suite Walkthrough
 
 ### Tab 1: Executive Fulfillment Overview
+<img width="961" height="554" alt="Screenshot 2026-08-26 at 19 33 59" src="https://github.com/user-attachments/assets/7d24bf94-2322-4c0f-8276-bfe8d3df28bb" />
+
 * **KPI Scorecards (BANs):** Real-time monitoring of GMV ($13.22M), Order Volume (96,469), Baseline OTIF (92.15%), and P&L at Risk ($246.35k).
 * **Dual-Axis Temporal Trend:** Correlates monthly order surges against OTIF degradation and margin loss spikes during peak trading windows.
 
 ### Tab 2: Logistics Bottlenecks & Corridor Analysis
+<img width="937" height="544" alt="Screenshot 2026-08-26 at 19 34 35" src="https://github.com/user-attachments/assets/16f0701e-e09d-40e7-8119-35356be68c63" />
+
 * **Lead Time Stage Decomposition:** Horizontal bar analysis isolating seller processing vs. carrier transit across corridor tiers.
 * **Origin-to-Destination Heatmap:** Cross-state latency matrix pinpointing chronic transit failures on lanes departing São Paulo.
 
 ### Tab 3: Partner Performance & Risk Matrix
+<img width="929" height="515" alt="Screenshot 2026-08-26 at 19 34 52" src="https://github.com/user-attachments/assets/96170fc4-8dfa-471c-b1a0-75e90601404f" />
+
 * **Volume vs. Reliability Scatter Plot:** 4-quadrant merchant categorization with a 90.0% OTIF SLA reference line.
-* **Top 10 High-Risk Sellers Ledger:** Actionable target list ranking chronic underperformers by financial risk exposure.
+* **Top 14 High-Risk Sellers Ledger:** Actionable target list ranking chronic underperformers by financial risk exposure.
 
 ---
 
