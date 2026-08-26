@@ -105,6 +105,6 @@ Elliot Levisse — Supply Chain & Operations Analytics Specialist
 
 Specialized in analytics pipelines, fulfillment modeling, and operations turnaround for global e-commerce.
 
-LinkedIn: linkedin.com/in/elliotlevisse
+LinkedIn: https://www.linkedin.com/in/elliot-levisse
 
 Portfolio Hub: github.com/elliotlevisse
