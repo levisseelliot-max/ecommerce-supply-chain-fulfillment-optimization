@@ -91,3 +91,18 @@ CREATE OR REPLACE TABLE `supply_chain_raw.order_payments` (
   payment_value         NUMERIC OPTIONS(description="Transaction value paid")
 )
 CLUSTER BY payment_type;
+
+-- -----------------------------------------------------------------------------
+-- 8. Order Reviews Raw Table
+-- -----------------------------------------------------------------------------
+CREATE OR REPLACE TABLE `supply_chain_raw.order_reviews` (
+  review_id               STRING OPTIONS(description="Unique review identifier"),
+  order_id                STRING OPTIONS(description="Order unique identifier associated with the review"),
+  review_score            INT64 OPTIONS(description="Customer satisfaction rating ranging from 1 to 5"),
+  review_comment_title    STRING OPTIONS(description="Title of the review comment"),
+  review_comment_message  STRING OPTIONS(description="Text content of the customer review"),
+  review_creation_date    TIMESTAMP OPTIONS(description="Timestamp when the review invitation survey was sent"),
+  review_answer_timestamp TIMESTAMP OPTIONS(description="Timestamp when customer submitted the review answer")
+)
+PARTITION BY DATE(review_answer_timestamp)
+CLUSTER BY review_score, order_id;
