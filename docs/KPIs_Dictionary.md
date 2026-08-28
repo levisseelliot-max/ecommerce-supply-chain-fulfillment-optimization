@@ -236,17 +236,7 @@ SUM(price)
 **Business Definition:**
 Proportion of total customer basket cost consumed by logistics shipping fees.
 
-**Calculation / Formula:**
-
-$$
-\text{Freight Share Ratio}
-=
-\frac{
-\text{freight\_value}
-}{
-\text{price} + \text{freight\_value}
-}
-$$
+**Calculation / Formula:** Freight Share Ratio = freight_value / (price + freight_value)
 
 **SQL Logic:**
 
@@ -308,18 +298,7 @@ END
 **Business Definition:**
 Cumulative operational margin leakage resulting from fulfillment failure, combining direct contract penalties and high-friction churn risk.
 
-**Calculation / Formula:**
-
-$$
-\text{Total P\&L at Risk}
-=
-\sum
-(
-\text{sla\_breach\_penalty\_cost}
-+
-\text{estimated\_churn\_cost}
-)
-$$
+**Calculation / Formula:** Total P&L at Risk = Σ(sla_breach_penalty_cost + estimated_churn_cost)
 
 | Attribute                                 |        Value |
 | ----------------------------------------- | -----------: |
