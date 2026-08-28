@@ -1,4 +1,4 @@
--- =============================================================================
+-- ============================================================================= 
 -- SCRIPT: 01_raw_schema_setup.sql
 -- DESCRIPTION: DDL initialization for raw e-commerce ingestion layer in BigQuery
 -- ARCHITECTURE LAYER: Raw / Staging Zone
