@@ -13,7 +13,9 @@
 Between 2016 and 2018, the marketplace scaled commercial operations to **$13.22M in GMV** across **96,469 orders**. However, fulfillment network fragmentation suppressed baseline **On-Time In-Full (OTIF)** performance to **92.15%**, triggering **$246,350 in cumulative P&L leakage** across carrier SLA penalties and customer churn exposure.
 
 This project delivers an enterprise-grade analytics pipeline—from raw data extraction in BigQuery SQL to an executive Tableau suite—diagnosing systemic freight bottlenecks and modeling a targeted operational turnaround.
-<img width="500" height="400" alt="Screenshot 2026-08-26 at 11 55 21" src="https://github.com/user-attachments/assets/b4b56297-133e-464a-9096-31bf5ec20905" />
+<p align="center">
+  <img width="500" height="400" alt="Screenshot 2026-08-26 at 11 55 21" src="https://github.com/user-attachments/assets/b4b56297-133e-464a-9096-31bf5ec20905" />
+</p>
 
 
 ---
@@ -34,7 +36,7 @@ Fast-Query Tableau Extract Engine → [ Executive 3-Tab Tableau ] → C-Level De
 
 ## 🔍 Root Cause Diagnostic & Core Insights
 
-
+<p align="center">
 <img width="465" height="243" alt="Screenshot 2026-08-26 at 19 31 03" src="https://github.com/user-attachments/assets/df321a24-a886-4c3f-96b4-54c300d67b0f" />
 
 
