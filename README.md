@@ -20,7 +20,7 @@ This project delivers an enterprise-grade analytics pipeline—from raw data ext
 
 ## 🛠️ Architecture & Technology Stack
 
-Raw Olist Source Data → (BigQuery SQL CTEs & Window Functions)→ FACT_fulfillment_orders
+[Raw Olist Source Data]([url](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce?resource=download&select=product_category_name_translation.csv)) → (BigQuery SQL CTEs & Window Functions)→ FACT_fulfillment_orders
 
 
 Fast-Query Tableau Extract Engine → [ Executive 3-Tab Tableau ] → C-Level Decision Memorandum (A3 Briefing)
