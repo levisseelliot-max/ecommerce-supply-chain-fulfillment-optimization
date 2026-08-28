@@ -82,13 +82,33 @@ Fast-Query Tableau Extract Engine → [ Executive 3-Tab Tableau ] → C-Level De
 ├── tableau/
 │   └── Olist_Supply_Chain_Suite.twbx    # Packaged Tableau Workbook (3 Executive Tabs)
 └── README.md                            # Comprehensive project documentation
+```
 
-🚀 Strategic Recommendations & Financial PaybackPillarStrategic LeverOperational MechanismNet Financial ImpactPillar 1Forward 3PL HubsDeploy forward nodes in Recife (PE) & Salvador (BA) for top 20% SKUs+$68,000 preservedPillar 2Dynamic AllocationMulti-carrier performance routing with automated SLA clawbacks+$48,350 recoveredPillar 3Seller Remediation48h dispatch alerts, buy-box boosts (≥95% OTIF), and volume throttling+$35,000 recoveredInitial Setup & API Integration CapEx: $35,000Annualized Gross Recovery: $193,350Net Annualized Margin Preserved: $151,350First-Year Return on Investment (ROI): 332%Capital Payback Period: 2.8 Months
+## 🚀 Strategic Recommendations & Financial Payback
 
-👤 Author & Contact
-Elliot Levisse — Supply Chain & Operations Analytics Specialist
+| Pillar       | Strategic Lever        | Operational Mechanism                                                                              |   Net Financial Impact |
+| ------------ | ---------------------- | -------------------------------------------------------------------------------------------------- | ---------------------: |
+| **Pillar 1** | **Forward 3PL Hubs**   | Deploy forward nodes in **Recife (PE)** and **Salvador (BA)** for the top 20% of SKUs              | **+$68,000 preserved** |
+| **Pillar 2** | **Dynamic Allocation** | Multi-carrier performance-based routing with automated SLA clawbacks                               | **+$48,350 recovered** |
+| **Pillar 3** | **Seller Remediation** | 48-hour dispatch alerts, Buy Box boosts for sellers achieving **≥95% OTIF**, and volume throttling | **+$35,000 recovered** |
 
-Specialized in analytics pipelines, fulfillment modeling, and operations turnaround for global e-commerce.
+### 💰 Financial Summary
 
-LinkedIn: https://www.linkedin.com/in/elliot-levisse
-Portfolio Hub: github.com/elliotlevisse-max
+| Metric                                    |          Value |
+| ----------------------------------------- | -------------: |
+| **Initial Setup & API Integration CapEx** |    **$35,000** |
+| **Annualized Gross Recovery**             |   **$193,350** |
+| **Net Annualized Margin Preserved**       |   **$151,350** |
+| **First-Year ROI**                        |       **332%** |
+| **Capital Payback Period**                | **2.8 months** |
+
+> **Key takeaway:** The proposed initiatives require an initial **$35,000 CapEx** and are expected to preserve or recover **$193,350 in annual gross value**, resulting in a **$151,350 net annualized margin impact** and a **332% first-year ROI**. The estimated capital payback period is only **2.8 months**.
+
+## 👤 Author & Contact
+
+**Elliot Levisse** — *Supply Chain & Operations Analytics Specialist*
+
+Specialized in **analytics pipelines, fulfillment modeling, and operational turnaround** for global e-commerce.
+
+* **LinkedIn:** [linkedin.com/in/elliot-levisse](https://www.linkedin.com/in/elliot-levisse)
+* **Portfolio Hub:** [github.com/elliotlevisse-max](https://github.com/elliotlevisse-max)
