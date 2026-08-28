@@ -32,24 +32,24 @@ Explore the full interactive Tableau dashboard:
 
 ---
 
-### Fulfillment Performance
+### Fulfillment Bottlenecks
 
 <p align="center">
   <img 
-    src="https://github.com/user-attachments/assets/78e5fbbe-25a2-4ad6-b139-ea0b3d2750f3"
-    alt="Fulfillment Performance Analysis"
+    <img width="924" height="529" alt="Screenshot 2026-08-28 at 18 08 17" src="https://github.com/user-attachments/assets/eedf590b-8a51-49b7-8be2-689000b36881" />
+    alt="Fulfillment Bottleneck Analysis"
     width="950"
   />
 </p>
 
 ---
 
-### Fulfillment Bottlenecks
+### Fulfillment Performance
 
 <p align="center">
   <img 
-    src="Screenshot 2026-08-25 at 20 23 48" src="https://github.com/user-attachments/assets/b1cabf61-f930-424f-ac67-f8e897eed51c"
-    alt="Fulfillment Bottleneck Analysis"
+    src="https://github.com/user-attachments/assets/78e5fbbe-25a2-4ad6-b139-ea0b3d2750f3"
+    alt="Fulfillment Performance Analysis"
     width="950"
   />
 </p>
