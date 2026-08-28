@@ -84,13 +84,7 @@ End-to-end customer wait time from initial checkout timestamp to physical parcel
 
 **Calculation / Formula:**
 
-$$
-\text{Total Lead Time}
-=
-\text{Processing Time}
-+
-\text{Transit Time}
-$$
+Calculation / Formula: Total Lead Time = Processing Time + Transit Time
 
 **SQL Logic:**
 
@@ -121,17 +115,8 @@ Difference between the customer-facing estimated delivery promise and the actual
 
 **Calculation / Formula:**
 
-$$
-\text{Delivery Delta}
-=
-\frac{
-\text{order\_estimated\_delivery\_date}
--
-\text{order\_delivered\_customer\_date}
-}{
-86400
-}
-$$
+Calculation / Formula: Delivery Delta = (order_estimated_delivery_date − order_delivered_customer_date) / 86400
+
 
 **SQL Logic:**
 
@@ -197,18 +182,7 @@ END
 **Business Definition:**
 Proportion of total customer orders successfully delivered on or before the committed delivery date with completed delivery confirmation.
 
-**Calculation / Formula:**
-
-$$
-\text{OTIF Rate (\%)}
-=
-\frac{
-\sum \text{OTIF Orders}
-}{
-\text{Total Shipped Orders}
-}
-\times 100
-$$
+**Calculation / Formula:** OTIF Rate (%) = (Σ OTIF Orders / Total Shipped Orders) × 100
 
 **SQL Logic:**
 
