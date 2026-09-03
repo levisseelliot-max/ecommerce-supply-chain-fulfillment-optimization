@@ -1,6 +1,7 @@
 # 📦 International E-Commerce Supply Chain & Fulfillment Optimization
 ### *End-to-End Analytics Pipeline, Predictive Risk Modeling & $151k/yr Margin Recovery Strategy*
 
+![Python](https://img.shields.io/badge/Python-3.10%2B%20%7C%20SciPy%20%26%20Pandas-3776AB?style=flat&logo=python&logoColor=white)
 ![SQL BigQuery](https://img.shields.io/badge/Data%20Warehouse-Google%20BigQuery-blue)
 ![Data Modeling](https://img.shields.io/badge/Modeling-Star%20Schema%20%7C%20Kimball-orange)
 ![Tableau](https://img.shields.io/badge/Dashboard-Tableau%20Desktop-teal)
