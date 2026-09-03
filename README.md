@@ -77,6 +77,9 @@ Fast-Query Tableau Extract Engine → [ Executive 3-Tab Tableau ] → C-Level De
 │   ├── 01_raw_schema_setup.sql          # Table DDL & BigQuery ingestion schemas
 │   ├── 02_lead_time_transformation.sql  # Staging transformations & timestamp delta logic
 │   └── 03_fact_fulfillment_orders.sql   # Production-ready Star Schema Fact Table
+│── python/
+│   ├── requirements.txt                      # Dependencies (pandas, numpy, scipy, bigquery)
+│   └── inventory_simulation_engine.py        # Stochastic simulation, Z-Score & Monte Carlo models
 ├── docs/
 │   ├── Executive_Memorandum_A3.pdf      # C-Suite Strategy & Investment Memo
 │   ├── Visual_Action_Plan.png           # Transformation architecture infographic
