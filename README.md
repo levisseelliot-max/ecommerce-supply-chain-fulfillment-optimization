@@ -29,6 +29,10 @@ This project delivers an enterprise-grade analytics pipeline—from raw data ext
 Fast-Query Tableau Extract Engine → [ Executive 3-Tab Tableau ] → C-Level Decision Memorandum (A3 Briefing)
 
 * **Data Warehouse & ETL:** Google BigQuery (Standard SQL, Window Functions, RegEx, Partitioning)
+* **Data Modeling & Scientific Computing (Python):**
+  * Vectorized statistical demand fitting using `Pandas` and `NumPy`.
+  * Inverse cumulative normal distribution modeling (`scipy.stats.norm.ppf`) to compute exact Z-factors for 98.0%, 92.0%, and 85.0% Cycle Service Levels ($CSL$).
+  * Stochastic lead-time simulation engine generating sensitivity analysis curves across 0% to 100% lead-time compression scenarios.
 * **Dimensional Modeling:** Star Schema (Kimball methodology), Conformed Dimensions, Fact Tables
 * **Business Intelligence:** Tableau Desktop & Cloud (Dual-axis charts, Heatmaps, Scatter matrices, Dynamic Parameters)
 * **Financial Modeling:** Unit-economic SLA penalty attribution & churn risk proxies
