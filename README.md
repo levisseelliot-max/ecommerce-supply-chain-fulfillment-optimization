@@ -19,6 +19,7 @@ This project delivers an enterprise-grade analytics pipeline—from raw data ext
 <div align="center">
 
 ```text
+
 ┌─────────────────────────────────────────────────────────────┐
 │            BASELINE (96,469 Orders | $13.22M GMV)           │
 │     92.15% OTIF Rate  │  $246,350 Total P&L Margin at Risk  │
@@ -35,6 +36,7 @@ This project delivers an enterprise-grade analytics pipeline—from raw data ext
 │       96.50% OTIF (+4.35 pts) │ <$95,000 P&L at Risk        │
 │  $151,350 Net Margin Recovery │ ROI: 332% (Payback: 2.8m)   │
 └─────────────────────────────────────────────────────────────┘
+
 ```
 
 <div align="left"> 
