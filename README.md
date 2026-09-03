@@ -14,12 +14,30 @@
 Between 2016 and 2018, the marketplace scaled commercial operations to **$13.22M in GMV** across **96,469 orders**. However, fulfillment network fragmentation suppressed baseline **On-Time In-Full (OTIF)** performance to **92.15%**, triggering **$246,350 in cumulative P&L leakage** across carrier SLA penalties and customer churn exposure.
 
 This project delivers an enterprise-grade analytics pipeline—from raw data extraction in BigQuery SQL to an executive Tableau suite—diagnosing systemic freight bottlenecks and modeling a targeted operational turnaround.
-<p align="center">
-  <img width="500" height="400" alt="Screenshot 2026-08-26 at 11 55 21" src="https://github.com/user-attachments/assets/b4b56297-133e-464a-9096-31bf5ec20905" />
-</p>
 
 
----
+<div align="center">
+
+```text
+┌─────────────────────────────────────────────────────────────┐
+│            BASELINE (96,469 Orders | $13.22M GMV)           │
+│     92.15% OTIF Rate  │  $246,350 Total P&L Margin at Risk  │
+└──────────────────────────────┬──────────────────────────────┘
+                               │
+                STRATEGIC LOGISTICS INTERVENTION
+   1. Forward-Deployed 3PL Regional Hubs (Recife & Salvador)
+   2. Dynamic Multi-Carrier Allocation Engine & SLA Clawbacks
+   3. High-Risk Key Account Remediation Protocol
+                               │
+                               ▼
+┌─────────────────────────────────────────────────────────────┐
+│               9-MONTH PROJECTED TARGET STATE                │
+│       96.50% OTIF (+4.35 pts) │ <$95,000 P&L at Risk        │
+│  $151,350 Net Margin Recovery │ ROI: 332% (Payback: 2.8m)   │
+└─────────────────────────────────────────────────────────────┘
+```
+
+<div align="left"> 
 
 ## 🛠️ Architecture & Technology Stack
 
